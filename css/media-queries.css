@@ -26,6 +26,18 @@
     .blogs-posts-container .post-container {
         max-width: 45%;
     }
+    .about-main-container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2fr;
+    }
+    .about-main-container .about-container {
+        display: block;
+    }
+    .proyects-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0 50px 40px;
+    }
 }
 
 @media(max-width: 800px) {
@@ -56,6 +68,21 @@
     }
     .blogs-posts-container .post-container {
         max-width: 95%;
+    }
+    .proyects-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0 50px 40px;
+    }
+    .contact-main-container div {
+        display: inline-block;
+        width: 80%;
+        margin-top: 30px;
+    }
+    .contact-main-container .contact-left,
+    .contact-right {
+        text-align: initial;
+        margin-top: 30px;
     }
 }
 
