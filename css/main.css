@@ -14,7 +14,7 @@ a {
 .home-body {
     position: fixed;
     top: 0;
-    botton: 0;
+    bottom: 0;
     left: 0;
     right: 0;
 }
@@ -56,7 +56,7 @@ header .icons span {
 nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    border-bottom: 5px solid black;
+    border-bottom: 1px solid #cdd2da;
 }
 
 nav .nav-logo-container {
@@ -85,7 +85,7 @@ nav .profile-link a {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     height: calc(100vh - 140px);
-    background-image: url('/assets/img/outer-space-background.jpg');
+    background-image: url('/assets/img/Space.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -198,4 +198,96 @@ footer .footer-copyright {
     color: #fff;
     margin-top: 30px;
     background-color: #47cfac;
+}
+
+.blogpost-img-container {
+    margin-top: 50px;
+    padding: 0 50px 40px;
+}
+
+.blogpost-img-container img {
+    width: 100%;
+}
+
+.blogpost-main-container {
+    padding: 0 50px 40px;
+}
+
+.blogpost-main-container h3 {
+    border-bottom: 1px solid #cdd2da;
+    padding-bottom: 20px;
+}
+
+.blogpost-main-container article h1 {
+    font-size: 35px;
+}
+
+.contact-main-container {
+    width: 100%;
+    min-height: 250px;
+    text-align: center;
+    padding-bottom: 50px;
+    background-color: #cdd2da;
+}
+
+.contact-main-container div {
+    display: inline-block;
+    width: 49.5%;
+    height: 100%;
+}
+
+.contact-main-container div a {
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+}
+
+.contact-main-container .contact-left,
+.contact-right {
+    text-align: initial;
+    margin-top: 85px;
+}
+
+.contact-main-container img {
+    width: 100px;
+}
+
+.about-main-container {
+    background-color: #e6e9ed;
+    padding: 50px 30px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.about-main-container .about-container {
+    display: flex;
+}
+
+.about-main-container img {
+    width: 220px;
+    margin-right: 30px;
+}
+
+.proyects-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 50px 40px;
+}
+
+.grid-container h3 {
+    border-bottom: 1px solid #cdd2da;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.proyects-container .proyect-container {
+    padding-left: 10px;
+    margin-bottom: 50px;
+}
+
+.proyects-container .proyect-container p {
+    margin-bottom: 35px;
+}
+
+.proyects-container .proyect-container img {
+    width: 100%;
 }
